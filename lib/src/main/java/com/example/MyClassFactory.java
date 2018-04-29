@@ -8,7 +8,7 @@ public class MyClassFactory {
         if (input.equalsIgnoreCase("A")) {
             return new SubA("A sub class", 3);
         } else if (input.equalsIgnoreCase("B")) {
-            return new SubB("B sub class", 2);
+            return new SubB("B sub class", 1);
         } else if (input.equalsIgnoreCase("C")) {
             return new SubC("C sub class", 1);
         } else {
